@@ -1,0 +1,85 @@
+:root {
+  --gris2: #7A7A7A1F;
+  --gris1: #F7F7F7;
+  --primario: #CD0000;
+  --texto: #000000;
+}
+
+/* Layout */
+.principal {
+  max-width: 360px;
+  margin-inline: auto;
+  min-height: 100vh;
+  background: #FFFFFF;
+}
+
+/* Encabezado (imagen "CARRERA | DUCATI") */
+.logo img {
+  max-height: 34px;
+  height: auto;
+}
+
+/* Banner */
+.gafas img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Área de login*/
+.login {
+  width: 100%;
+}
+
+/* Título "INICIO DE SESIÓN" */
+.inicio-sesion {
+  color: var(--texto);
+}
+
+/* Bloque formulario */
+.formulario {
+  opacity: 1;
+}
+
+/* Inputs */
+.formulario .form-control {
+  border: 1px solid #000000 !important;
+  border-radius: 4px;
+  height: 48px;
+}
+
+.email label{
+  background: #FFFFFF;
+}
+
+.password {
+  background: #FFFFFF;
+}
+
+.recuperar-password a {
+  color: var(--primario);
+}
+
+.btn-ingresar {
+  margin: 2px auto;
+  width: 188px;
+  height: 40px;
+  border: none;
+  background: #CD0000;
+  color: #FFFFFF;
+  font-size: 16px;
+  text-align: center;
+}
+
+.registro a {
+  color: #CD0000;
+  font-weight: bold;
+}
+
+/* Pie con listón*/
+.pie-pagina img {
+  width: 56px;
+  height: 28px;
+}
+
+

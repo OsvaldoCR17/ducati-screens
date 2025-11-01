@@ -1,0 +1,102 @@
+
+  <!-- Contenedor principal centrado -->
+  <div class="principal container py-4">
+    <div class="row justify-content-center">
+      <div class="col-12">
+
+        <!-- Tarjeta principal -->
+        <div class="card border-0 shadow-sm">
+
+          <!-- Título -->
+          <div class="logo card-header bg-white border-0 d-flex justify-content-center align-items-center py-4">
+            <img src="./assets/images/logo-marcas.png" alt="CARRERA | DUCATI" class="img-fluid" />
+          </div>
+
+          <!-- Banner gafas -->
+          <div class="gafas">
+            <img src="./assets/images/login-img.png" alt="Banner gafas y texto" class="img-fluid w-100 d-block">
+          </div>
+
+          <!-- formulario dentro de card -->
+          <div class="login card-body p-0 shadow-sm">
+            <div class="px-4 py-3">
+              <h2 class="inicio-sesion h5 fw-bold mb-3">REGÍSTRATE</h2>
+
+              <div class="formulario">
+                <form novalidate>
+                  <div class="mb-3">
+                    <label class="visually-hidden" for="nombre">Nombre</label>
+                    <input id="nombre" class="form-control" type="text" placeholder="Nombre" required>
+                  </div>
+
+                  <div class="mb-3">
+                    <label class="visually-hidden" for="apellidos">Apellidos</label>
+                    <input id="apellidos" class="form-control" type="text" placeholder="Apellidos" required>
+                  </div>
+
+                  <div class="mb-3">
+                    <label class="visually-hidden" for="email">Correo electrónico</label>
+                    <input id="email" class="form-control" type="email" placeholder="Correo electrónico" required>
+                  </div>
+
+                  <div class="mb-3">
+                    <label class="visually-hidden" for="password">Contraseña</label>
+                    <div class="input-group">
+                      <input id="password" class="form-control password" type="password" placeholder="Contraseña" required>
+                      <button type="button" class="btn btn-outline-secondary" aria-label="Mostrar contraseña">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                          <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8z"/>
+                          <path d="M8 5.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5z"/>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="mb-3">
+                    <label class="visually-hidden" for="telefono">Teléfono</label>
+                    <input id="telefono" class="form-control" type="tel" placeholder="Teléfono">
+                  </div>
+
+                  <div class="mb-3">
+                    <label class="visually-hidden" for="ciudad">Ciudad</label>
+                    <input id="ciudad" class="form-control" type="text" placeholder="Ciudad">
+                  </div>
+
+                  <div class="mb-3">
+                    <label class="visually-hidden" for="edad">Edad</label>
+                    <select id="edad" class="form-select form-control">
+                      <option selected disabled>Edad</option>
+                    </select>
+                  </div>
+
+                  <div class="d-flex align-items-center mb-4">
+                    <div class="form-check me-2">
+                      <input class="form-check-input" type="checkbox" required>
+                    </div>
+                    <label class="form-check-label small" for="terminos">
+                      Acepto los <a href="#">Términos y Condiciones</a>
+                    </label>
+                  </div>
+                  <div class="d-grid mb-2 justify-content-center">
+                    <button type="submit" class="btn-registro">REGISTRARME</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <!-- Texto inferior y listón-->
+          <p class="registro text-center mt-3">
+            ¿Ya tienes una cuenta?
+            <a (click)="login()" class="text-decoration-none">Inicia sesión</a>
+          </p>
+
+          <div class="pie-pagina d-flex justify-content-center mb-0 mt-4">
+            <img src="./assets/images/liston-img.png" alt="Decoración final" class="img-fluid">
+          </div>
+        </div> <!-- /card -->
+
+      </div>
+    </div>
+  </div>
+

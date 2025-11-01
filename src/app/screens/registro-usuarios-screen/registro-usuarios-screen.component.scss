@@ -1,0 +1,107 @@
+:root {
+  --gris2: #7A7A7A1F;
+  --gris1: #F7F7F7;
+  --primario: #CD0000;
+  --texto: #000000;
+}
+
+/* Layout contenedor */
+.principal {
+  max-width: 360px;
+  margin-inline: auto;
+  min-height: 100vh;
+  background: #FFFFFF;
+}
+
+/* Encabezado */
+.logo img {
+  max-height: 34px;
+  height: auto;
+}
+
+/* Banner */
+.gafas img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Card del formulario*/
+.login {
+  width: 100%;
+}
+
+.formulario .form-control {
+  border: 1px solid #000000 !important;
+  border-radius: 4px;
+  height: 48px;
+  background: #FFFFFF;
+}
+
+.formulario .form-select {
+  border: 1px solid #000000 !important;
+  border-radius: 4px;
+  height: 48px;
+  background-color: #FFFFFF;
+  padding-right: 2.25rem;
+}
+
+.password {
+  background: #FFFFFF;
+}
+
+/* Checkbox TyC */
+.form-check-input {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #000000;
+  border-radius: 0px;
+  background-color: #FFFFFF;
+  box-shadow: none;
+}
+
+.form-check-input:checked {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+/* Link a Términos y Condiciones*/
+.form-check-label a {
+  color: #CD0000;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.btn-registro {
+  margin: 2px auto;
+  width: 188px;
+  height: 40px;
+  border: none;
+  background: #CD0000;
+  color: #FFFFFF;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Texto y link inferior */
+.registro {
+  color: var(--texto);
+  font-size: 16px;
+}
+.registro a {
+  color: #CD0000;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Separador */
+hr {
+  border-color: #E5E5E5;
+  opacity: 1;
+}
+
+/* Pie con listón  */
+.pie-pagina img {
+  width: 56px;
+  height: 28px;
+}

@@ -1,0 +1,70 @@
+
+  <!-- Contenedor principal centrado -->
+  <div class="principal container py-4">
+    <div class="row justify-content-center">
+      <div class="col-12">
+
+        <!-- Tarjeta principal -->
+        <div class="card border-0 shadow-sm">
+
+          <!-- Título -->
+          <div class="logo card-header bg-white border-0 d-flex justify-content-center align-items-center py-4">
+            <img src="./assets/images/logo-marcas.png" alt="CARRERA | DUCATI" class="img-fluid" />
+          </div>
+
+          <!-- Banner gafas -->
+          <div class="gafas">
+            <img src="./assets/images/login-img.png" alt="Banner gafas y texto" class="img-fluid w-100 d-block">
+          </div>
+
+          <!-- Cuerpo: formulario -->
+          <div class="login card-body p-0 shadow-sm">
+            <div class="px-4 py-3 ">
+
+              <h2 class="inicio-sesion h5 fw-bold mb-3">INICIO DE SESIÓN</h2>
+
+              <div class="formulario">
+                <form novalidate>
+                  <div class="mb-3">
+                    <label class="visually-hidden" for="email">Correo electrónico</label>
+                    <input id="email" type="email" class="form-control email" placeholder="Correo electrónico" required>
+                  </div>
+
+                  <div class="mb-2 position-relative">
+                    <label class="visually-hidden" for="password">Contraseña</label>
+                    <div class="input-group">
+                      <input id="password" type="password" class="form-control password" placeholder="Contraseña" required>
+                      <button type="button" class="btn btn-outline-secondary" aria-label="Mostrar contraseña">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                          <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8z"/>
+                          <path d="M8 5.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5z"/>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="recuperar-password mb-3">
+                    <a href="#" class="text-danger small fw-bold text-decoration-none">Recupera tu contraseña</a>
+                  </div>
+
+                  <div class="d-grid mb-4 justify-content-center">
+                    <button type="submit" class="btn-ingresar">INGRESAR</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <p class="registro text-center mt-3">
+                ¿Aún no tienes una cuenta?
+                <a (click)="registrar()">Regístrate</a>
+          </p>
+          <!-- Pie de página con imagen decorativa -->
+          <div class="pie-pagina d-flex justify-content-center mb-0 mt-4">
+            <img src="./assets/images/liston-img.png" alt="Decoración final" class="img-fluid">
+          </div>
+        </div> <!-- /card -->
+
+      </div>
+    </div>
+  </div>
